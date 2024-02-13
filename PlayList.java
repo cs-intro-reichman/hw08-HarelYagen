@@ -104,7 +104,7 @@ class PlayList {
             return -1;
         }
         if (i != maxSize) {
-            for (int j = i; j < size - 1;) {
+            for (int j = i; j < size - 1;j++) {
                 tracks[j] = tracks[j + 1];
             }
         }
